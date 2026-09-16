@@ -1,0 +1,28 @@
+# Environment variables and secrets (CRITICAL: Never commit bot tokens!)
+.env
+*.env.local
+
+# Compiled binaries and build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binaries and coverage reports
+*.test
+*.out
+coverage.html
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
